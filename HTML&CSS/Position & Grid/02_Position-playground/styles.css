@@ -1,0 +1,27 @@
+.viewport:first-child{
+background: linear-gradient(90deg, rgba(4,114,193,1) 0%, rgba(73,153,240,1) 48%, rgba(0,255,211,1) 100%);
+}
+.viewport:last-child{
+    background: linear-gradient(90deg, rgba(182,17,124,1) 0%, rgba(87,63,240,1) 49%, rgba(227,192,43,1) 100%);
+}
+.viewport{
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.viewport .card{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+   /* box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 28px 28px 31px 11px rgba(0,0,0,0.4); */
+
+}
+.viewport .card img{
+    width: 100%;
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, inset 28px 28px 31px 11px rgba(0,0,0,0.4);
+}
+@import url(https://kit.fontawesome.com/fe81b388e6.js)
